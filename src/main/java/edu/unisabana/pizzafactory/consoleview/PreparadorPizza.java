@@ -46,11 +46,11 @@ public class PreparadorPizza {
         hpd.hornear();
     }
 
-    private void aplicarIngredientes(Ingrediente[] ingredientes) {
-        Logger.getLogger(PreparadorPizza.class.getName())
-                .log(Level.INFO, "APLICANDO INGREDIENTES!:{0}", Arrays.toString(ingredientes));
-        
-        //CODIGO DE LLAMADO AL MICROCONTROLADOR
+  private void aplicarIngredientes(Ingrediente[] ingredientes) {
+    Logger.getLogger(PreparadorPizza.class.getName())
+      .log(Level.INFO, "APLICANDO INGREDIENTES!:{0}", Arrays.toString(ingredientes));
+
+    //CODIGO DE LLAMADO AL MICROCONTROLADOR
         
         
         
