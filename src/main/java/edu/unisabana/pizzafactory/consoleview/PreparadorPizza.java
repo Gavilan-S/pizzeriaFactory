@@ -21,8 +21,8 @@ public class PreparadorPizza {
   public static void main(String args[]){
     try {
       Ingrediente[] ingredientes=new Ingrediente[]{new Ingrediente("queso",1),new Ingrediente("jamon",2)};            
-      PreparadorPizza pp=new PreparadorPizza();            
-      pp.prepararPizza(ingredientes, typeOfTamanno.MEDIANO, typeOfGrosor.DELGADO);
+      PreparadorPizza prepadadorPizzaNueva =new PreparadorPizza();            
+      prepadadorPizzaNueva.prepararPizza(ingredientes, typeOfTamanno.MEDIANO, typeOfGrosor.DELGADO);
     } catch (ExcepcionParametrosInvalidos ex) {
       Logger.getLogger(PreparadorPizza.class.getName()).log(Level.SEVERE, "Problema en la preparacion de la Pizza", ex);
     }
