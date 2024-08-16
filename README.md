@@ -8,7 +8,7 @@ En este proyecto, exploraremos cómo implementar el patrón Abstract Factory med
 
 ### Diagrama del Patrón
 
-![Diagrama Abstract Factory]![PizzeriaFactory](https://github.com/user-attachments/assets/b974fa3f-e076-47fb-9046-a7b187f11533)
+![PizzeriaFactory](https://github.com/user-attachments/assets/b974fa3f-e076-47fb-9046-a7b187f11533)
 
 
 ### Lenguaje utilizado
